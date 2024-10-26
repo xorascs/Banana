@@ -20,3 +20,18 @@
 > ![image](https://github.com/user-attachments/assets/4e5bd0e6-4f5c-4572-95c6-45a644a17711) <br>
 
 - Скрипт работает автоматически при [запуске бота](https://t.me/OfficialBananaBot/banana?startapp=referral=P9J4RE).
+
+> [!IMPORTANT]
+> ## Как обойти ошибку "Заблокировано из-за запроса"?
+> ![image](https://github.com/user-attachments/assets/03bccc66-9a15-4e5b-9351-59e51fab8ec6)
+> ## Решение
+> - Вы можете использовать: [расширение для обхода этой ошибки](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii)
+> 
+> ![image](https://github.com/user-attachments/assets/9c60c79a-e012-40f3-9b0f-2acab2dc05fb)
+> ![image](https://github.com/user-attachments/assets/bd22eeef-4e69-4402-a2ec-ae8b3a1baca0)
+> ![image](https://github.com/user-attachments/assets/47bd7fc5-7af5-404b-b2a6-21026498d6b1)
+> ![image](https://github.com/user-attachments/assets/ff531413-4e11-4f1a-a8f1-6da8e7e86708)
+
+
+
+
