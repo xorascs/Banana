@@ -44,6 +44,8 @@ async function claimBanana() {
         try {
             document.querySelector('uni-button[class="anim-button anim-button_large anim-button_grey button btn-operate"]').click();
         } catch (err) {}
+
+        console.log("Banana was claimed successfully!");
     })
 }
 
@@ -81,15 +83,15 @@ async function start(clickObj, maxClickCount) {
 async function main() {
     await sleep(5000);
     if (document.querySelector('uni-view[class="claim-container"]')) {
-    console.log("Claiming banana!");
+        console.log("Claiming banana!");
     await claimBanana();
     }
     else {
-    console.log("Banana is already claimed!");
+        console.log("Banana is already claimed!");
     }
 
-    let clickObj = document.querySelectorAll('uni-button[data-v-aafd0a55]')[0];
-    let maxClickObjText = document.querySelectorAll('uni-view[class="value"]')[0].textContent;
+    let clickObj = document.querySelector('uni-view[class="page-home skeleton-container"]').children[3].children[0];
+    let maxClickObjText = document.querySelector('uni-view[class="page-home skeleton-container"]').children[3].children[0].children[1].children[1].textContent;
     let currentClickCount = parseInt(maxClickObjText.substring(0, maxClickObjText.indexOf('/')));
     let maxClickCount = parseInt(maxClickObjText.substring(maxClickObjText.indexOf('/') + 1));
 
